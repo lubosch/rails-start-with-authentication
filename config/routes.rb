@@ -3,10 +3,10 @@ Rails.application.routes.draw do
 
   root 'pages#index'
 
-  resources :user_activities
 
   get '/profile' => 'users#profile', :as => :profile
 
+  get '*path' => 'pages#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

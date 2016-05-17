@@ -65,6 +65,16 @@ gem 'fast-stemmer'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# gem 'angularjs-rails'
+gem 'angular-rails-templates'
+# gem 'angular-ui-router-rails'
+gem 'angularjs-rails-resource', '~> 2.0.0'
+
+gem 'bower-rails', '~> 0.10.0'
+
+gem 'font-awesome-rails'
+
+
 group :development do
   gem 'rails_layout'
   gem 'capistrano-rails'

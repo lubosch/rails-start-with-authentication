@@ -1,0 +1,12 @@
+angular.module('expotask').config ($locationProvider, $stateProvider, $urlRouterProvider)->
+  $locationProvider.html5Mode(enabled: true, requireBase: false);
+
+  $urlRouterProvider.otherwise ->
+    return '/dashboards'
+
+  $stateProvider.state 'dashboards', {
+    url: '/dashboards',
+    controller: 'DashboardCtrl',
+    templateUrl: "<%= asset_path('angular/dashboard/index.html') %>"
+  }
+
