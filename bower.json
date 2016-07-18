@@ -1,0 +1,22 @@
+{
+  "lib": {
+    "name": "invenman",
+    "dependencies": {
+      "angular": "v1.5.0-build.4260",
+      "angular-visjs": "4.0.2",
+      "vis": "4.11.0",
+      "angular-ui-router": "v0.2.15",
+      "angular-bootstrap": "v1.1.0",
+      "angular-chart.js": "v1.0.0-alpha6"
+    },
+    "resolutions": {
+      "angular": "1.5.0-build.4260+sha.befeeb3",
+      "vis": "4.11.0"
+    }
+  },
+  "vendor": {
+    "name": "bower-rails generated vendor assets",
+    "dependencies": {
+    }
+  }
+}
